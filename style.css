@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"gillroy";
+}
+body,html{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    z-index: 999;
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 3s;
+}
+#left{
+    position: relative;
+    height: 100%;
+    width: 80%;
+    background-color: white;
+}
+#LH{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    /* background: red; */
+    bottom: 6px;
+    left: 70px;   
+}
+#LH p{
+    padding: 25px 5px;
+}
+#LH h1{
+    padding:3px 2px;
+}
+#icon{
+    position: absolute;
+    height: 40px;
+    width: 150px;
+    /* background-color: red; */
+    top: 40%;
+    left: 90px;
+}
+#line{
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    background-color: black;
+    bottom: 0px;
+    left: -30px;  
+    transform: rotate(-90deg);
+}
+#icon h5{
+    position: absolute;
+    top: -20px;
+    left: -33px;  
+    transform: rotate(-90deg);
+    font-weight: 750;
+}
+#icon i{
+    font-size: 20px;
+    font-weight: 400;
+}
+#button{
+    position: absolute;
+    height: 40px;
+    width: 350px;
+    /* background-color: red; */
+    top: 40px;
+    left: 70px;
+}
+#button button{
+    position: absolute;
+    height: 35px;
+    width: 100px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    
+}
+#button i{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#pic1{
+    position: absolute;
+    height: 220px;
+    width: 210px;
+    /* background-color: red; */
+    top: 0%;
+    left: 58%;
+}
+#pic1 img{
+    position: absolute;
+    height: 75%;
+    width: 100%;
+    object-fit: cover;
+}
+#pic1 h5{
+    position: absolute;
+    bottom: 0px;
+}
+#pic2{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    /* background-color: red; */
+    bottom: 16%;
+    right: 0%;
+}
+#pic2 img{
+    position: absolute;
+    top: 50px;
+    height: 74%;
+    width: 100%;
+    object-fit: cover;
+    
+    
+}
+#pic2 p{
+    position: absolute;
+    bottom: 15px;
+    font-weight: 600;
+
+}
+#pic2 #p1{
+    position: absolute;
+    bottom: 0px;
+
+}
+#pic2 h1{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+#RTP{
+    position: absolute;
+    height: 200px;
+    width: 260px;
+    /* background-color: red; */
+    top: 40px;
+    z-index: 999;
+    right: -100px;
+}
+#RTP #red{
+    
+    color:red;
+    font-size: 14px;
+    font-weight: 600;
+}
+#black{
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    bottom: 50px;
+    color:black;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+#nav{
+    position: absolute;
+    height: 50px;
+    width: 500px;
+    background-color: red;
+    bottom: 0px;
+    right: 0%;
+}
+ #nav1{
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+
+}
+#nav1 a{
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 550;
+}
+#right{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    background-color: yellow;    
+}
+#right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: 50px 0px;
+    object-position: left;
+    
+}
+#RTLB{
+    position: absolute;
+    height: 50px;
+    width: 70px;
+    background-color: red;
+    bottom: 0px;
+    left: 0%;
+}
+#RTLB i{
+    position: absolute;
+    color: #fff;
+    top: 15px;
+    left: 10px;
+    font-size: 20px;
+    font-weight: 550;
+}
+#main1{
+    height: 100vh;
+    width: 100%;
+    background:#ffff;
+    background-attachment: rgba(116, 106, 106, 0.884);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 3s;
+}
+#btn{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    /* background-color: red; */
+    top: 450px;
+    left: 550px;
+    font-size: 100px;
+    background-color: #ffff;
+    border: none;
+}
+#main1 #l1{
+    z-index: 99;
+    position: absolute;
+    left: 25%;
+    background-color: black;
+    height: 50%;
+    width: 4PX;
+}
+#main1 #l2{
+    z-index: 99;
+    position: absolute;
+    left: 75%;
+    bottom: 0px;
+    background-color: black;
+    height: 50%;
+    width: 4PX;
+}
+#main1 h1{
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    color: red;
+    top: 200px;
+    left: 500px;
+    font-size: 100px;
+    background-color: #ffff;
+    border: none;
+    font-family: 'Comforter', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rosario', sans-serif;
+}
+
+
+
+
+   
+
