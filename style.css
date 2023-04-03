@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:"gillroy";
+    font-family:gilroy;
 }
 body,html{
     height: 100%;
@@ -15,13 +15,15 @@ body,html{
     width: 100%;
     background-color: red;
     display: flex;
+    color:#fff;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 3s;
 }
 #left{
     position: relative;
     height: 100%;
     width: 80%;
-    background-color: white;
+    background-color: #000;
+    color:#fff;
 }
 #LH{
     position: absolute;
@@ -49,7 +51,7 @@ body,html{
     position: absolute;
     height: 3px;
     width: 30px;
-    background-color: black;
+    background-color: white;
     bottom: 0px;
     left: -30px;  
     transform: rotate(-90deg);
@@ -159,7 +161,7 @@ body,html{
     height: 50%;
     width: 100%;
     bottom: 50px;
-    color:black;
+    color:white;
     font-size: 14px;
     font-weight: 600;
     
@@ -222,7 +224,7 @@ body,html{
 #main1{
     height: 100vh;
     width: 100%;
-    background:#ffff;
+    background:#000;
     background-attachment: rgba(116, 106, 106, 0.884);
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 3s;
 }
@@ -234,14 +236,15 @@ body,html{
     top: 450px;
     left: 550px;
     font-size: 100px;
-    background-color: #ffff;
+    background-color: #000;
+    color:#fff;
     border: none;
 }
 #main1 #l1{
     z-index: 99;
     position: absolute;
     left: 25%;
-    background-color: black;
+    background-color: white;
     height: 50%;
     width: 4PX;
 }
@@ -250,7 +253,7 @@ body,html{
     position: absolute;
     left: 75%;
     bottom: 0px;
-    background-color: black;
+    background-color: white;
     height: 50%;
     width: 4PX;
 }
@@ -262,7 +265,7 @@ body,html{
     top: 200px;
     left: 500px;
     font-size: 100px;
-    background-color: #ffff;
+    background-color: #000;
     border: none;
     font-family: 'Comforter', cursive;
     font-family: 'Open Sans', sans-serif;

@@ -19,12 +19,21 @@
 
 var btn= document.querySelector("#btn")
 var count=0
+var main= document.querySelector("#main");
+var main1= document.querySelector("#main1");
 
+
+function show(){
+    main.style.transform="translateY(-100%)";
+    main1.style.transform="translateY(-100%)";
+    
+}
 setInterval(() => {
     if(count<=100){
     btn.textContent=count++ + "%"
+    show()
 }
-}, );
+},"+=1000");
 var tl=gsap.timeline();
 tl.from("#l1",{
     y:-100,
@@ -41,12 +50,7 @@ tl.from("#l1",{
     opacity:0
 })
 
-var main= document.querySelector("#main");
-var main1= document.querySelector("#main1");
-main1.addEventListener("mouseover",function(){
-    main.style.transform="translateY(-100%)";
-    main1.style.transform="translateY(-100%)";
-})
+
 
 
 
